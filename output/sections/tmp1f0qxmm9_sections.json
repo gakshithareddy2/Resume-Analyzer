@@ -1,0 +1,60 @@
+{
+    "candidate_name": "John Doe",
+    "contact_info": {
+        "email": "johndoe@gmail.com",
+        "phone": "+91 9876543210",
+        "linkedin": "https://www.linkedin.com/in/johndoe",
+        "github": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "Git",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "NLP",
+        "NumPy",
+        "PHP",
+        "Pandas",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 37.5,
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "Scikit-learn"
+        ]
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "candidate_name": "John Doe",
+    "contact_info": {
+        "email": "johndoe@gmail.com",
+        "phone": "+91 9876543210",
+        "linkedin": "https://www.linkedin.com/in/johndoe",
+        "github": "https://github.com/johndoe"
+    },
+    "detected_skills": [
+        "CSS",
+        "Communication",
+        "Data Science",
+        "Deep Learning",
+        "Git",
+        "GitHub",
+        "HTML",
+        "Java",
+        "Jupyter Notebook",
+        "Machine Learning",
+        "MySQL",
+        "NLP",
+        "NumPy",
+        "PHP",
+        "Pandas",
+        "Power BI",
+        "Problem Solving",
+        "Python",
+        "SQL",
+        "Scikit-learn",
+        "Team Collaboration",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 52.5,
+        "score_breakdown": {
+            "skills_score": 52.5,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Data Science",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Excel"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "deep learning",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "Programming Languages: Python, Java, SQL Machine Learning & AI: Machine Learning, Deep Learning, NLP, Scikit-learn, Pandas, NumPy, Data Science Web Technologies: HTML, CSS, REST APIs Tools & Platforms: Git, GitHub, Power BI, VS Code, Jupyter Notebook",
+        "projects": "0",
+        "experience": "0",
+        "languages": "0",
+        "certifications": "0"
+    }
+}

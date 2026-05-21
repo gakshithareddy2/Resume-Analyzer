@@ -1,0 +1,43 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Excel",
+        "Power BI",
+        "Tableau"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 25.0,
+        "matched_skills": [
+            "Excel",
+            "Power BI"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "GitHub",
+            "Machine Learning",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ]
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

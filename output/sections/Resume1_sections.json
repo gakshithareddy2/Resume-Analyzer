@@ -1,0 +1,28 @@
+{
+    "candidate_name": "Rahul Sharma",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Flask",
+        "MySQL",
+        "Python"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

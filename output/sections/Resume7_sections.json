@@ -1,0 +1,28 @@
+{
+    "candidate_name": "Creative Canva Resume Script",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Flask",
+        "JavaScript",
+        "Python"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

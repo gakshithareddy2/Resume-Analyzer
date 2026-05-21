@@ -1,0 +1,87 @@
+{
+    "candidate_name": "John Doe",
+    "contact_info": {
+        "email": "johndoe@gmail.com",
+        "phone": "+91 9876543210",
+        "linkedin": "https://www.linkedin.com/in/johndoe",
+        "github": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "Communication",
+        "Git",
+        "HTML",
+        "Java",
+        "JavaScript",
+        "Jupyter Notebook",
+        "Machine Learning",
+        "MySQL",
+        "NLP",
+        "NumPy",
+        "PHP",
+        "Pandas",
+        "Problem Solving",
+        "Python",
+        "SQL",
+        "Scikit-learn",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 61.11,
+        "score_breakdown": {
+            "skills_score": 30.0,
+            "projects_score": 11.11,
+            "education_gpa_score": 10,
+            "experience_score": 10.0
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "Programming Languages: Python, Java, SQL Web Technologies: HTML, CSS, JavaScript Machine Learning: Scikit-learn, Pandas, NumPy 1 Tools: Git, VS Code, Jupyter Notebook",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

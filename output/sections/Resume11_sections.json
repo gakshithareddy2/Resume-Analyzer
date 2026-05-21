@@ -1,0 +1,49 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Java",
+        "MySQL"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 0.0,
+        "score_breakdown": {
+            "skills_score": 0.0,
+            "projects_score": 0.0,
+            "education_gpa_score": 0,
+            "experience_score": 0.0
+        },
+        "matched_skills": [],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [],
+        "matched_experience_keywords": []
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

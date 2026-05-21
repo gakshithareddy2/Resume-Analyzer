@@ -1,0 +1,29 @@
+{
+    "candidate_name": "Graphic Resume React",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "HTML",
+        "MySQL",
+        "React"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

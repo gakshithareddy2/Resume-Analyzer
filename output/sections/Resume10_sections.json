@@ -1,0 +1,53 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Machine Learning",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 24.72,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 2.22,
+            "education_gpa_score": 0,
+            "experience_score": 0.0
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "machine learning"
+        ],
+        "matched_experience_keywords": []
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "candidate_name": "John Doe",
+    "contact_info": {
+        "email": "johndoe@gmail.com",
+        "phone": "+91 9876543210",
+        "linkedin": "https://www.linkedin.com/in/johndoe",
+        "github": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "Git",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "NLP",
+        "NumPy",
+        "PHP",
+        "Pandas",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 48.06,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 8.89,
+            "education_gpa_score": 10,
+            "experience_score": 6.67
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "",
+        "education": "JOHN DOE CONTACT Phone: +91 9876543210 Email: johndoe@gmail.com Location: Hyderabad LinkedIn: https://www.linkedin.com/in/johndoe SUMMARY Aspiring Computer Science student interested in Machine Learning and Web Development. EDUCATION B.Tech in Computer Science Engineering Woxsen University, Telangana 2024 - 2028 CGPA: 8.4 SKILLS Python, Java, SQL, HTML, CSS, Machine Learning, Pandas, NumPy, Git PROJECTS Student Grievance Management System Developed a web-based complaint management portal using HTML, CSS, PHP, and MySQL. Diabetes Prediction System Built a machine learning model using Random Forest Classifier. EXPERIENCE Machine Learning Intern at Persevex Worked on resume parsing and NLP-based text extraction.",
+        "skills": "",
+        "projects": "JOHN DOE CONTACT Phone: +91 9876543210 Email: johndoe@gmail.com Location: Hyderabad LinkedIn: https://www.linkedin.com/in/johndoe SUMMARY Aspiring Computer Science student interested in Machine Learning and Web Development. EDUCATION B.Tech in Computer Science Engineering Woxsen University, Telangana 2024 - 2028 CGPA: 8.4 SKILLS Python, Java, SQL, HTML, CSS, Machine Learning, Pandas, NumPy, Git PROJECTS Student Grievance Management System Developed a web-based complaint management portal using HTML, CSS, PHP, and MySQL. Diabetes Prediction System Built a machine learning model using Random Forest Classifier. EXPERIENCE Machine Learning Intern at Persevex Worked on resume parsing and NLP-based text extraction.",
+        "experience": "JOHN DOE CONTACT Phone: +91 9876543210 Email: johndoe@gmail.com Location: Hyderabad LinkedIn: https://www.linkedin.com/in/johndoe SUMMARY Aspiring Computer Science student interested in Machine Learning and Web Development. EDUCATION B.Tech in Computer Science Engineering Woxsen University, Telangana 2024 - 2028 CGPA: 8.4 SKILLS Python, Java, SQL, HTML, CSS, Machine Learning, Pandas, NumPy, Git PROJECTS Student Grievance Management System Developed a web-based complaint management portal using HTML, CSS, PHP, and MySQL. Diabetes Prediction System Built a machine learning model using Random Forest Classifier. EXPERIENCE Machine Learning Intern at Persevex Worked on resume parsing and NLP-based text extraction.",
+        "languages": "",
+        "certifications": ""
+    }
+}

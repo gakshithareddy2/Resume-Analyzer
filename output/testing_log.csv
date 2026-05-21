@@ -1,0 +1,4 @@
+file_name,file_type,text_extraction,contact_extraction,name_extraction,section_extraction,skill_extraction,entity_extraction,json_output,overall_status,notes
+Resume1.pdf,PDF,Success,Success,Success,Partial,Success,Partial,Success,Partial,Single-column resume tested
+Resume2.pdf,PDF,Success,Success,Success,Partial,Success,Partial,Success,Partial,Some sections missing in source resume
+Resume3.docx,DOCX,Success,Success,Success,Success,Success,Success,Success,Success,DOCX parsed successfully

@@ -1,0 +1,64 @@
+{
+    "candidate_name": "Priya Sharma",
+    "contact_info": {
+        "email": "priyasharma@gmail.com",
+        "phone": "+91 9123456789",
+        "linkedin": "https://www.linkedin.com/in/priyasharma",
+        "github": "https://github.com/priyasharma"
+    },
+    "detected_skills": [
+        "Data Science",
+        "Excel",
+        "GitHub",
+        "Machine Learning",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 84.44,
+        "score_breakdown": {
+            "skills_score": 60.0,
+            "projects_score": 11.11,
+            "education_gpa_score": 10,
+            "experience_score": 3.33
+        },
+        "matched_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience"
+        ]
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}

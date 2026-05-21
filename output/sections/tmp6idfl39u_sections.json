@@ -1,0 +1,43 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Flask",
+        "MySQL",
+        "Python"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 12.5,
+        "matched_skills": [
+            "Python"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "SQL",
+            "Scikit-learn"
+        ]
+    },
+    "sections": {
+        "summary": "",
+        "education": "",
+        "skills": "",
+        "projects": "",
+        "experience": "",
+        "languages": "",
+        "certifications": ""
+    }
+}
