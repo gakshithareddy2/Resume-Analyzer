@@ -1,63 +1,40 @@
-from pdfminer.high_level import extract_text
+import fitz
 from docx import Document
-
-import pytesseract
-from pdf2image import convert_from_path
-
-from PIL import Image
-
-
-POPPLER_PATH = r"C:\poppler\poppler-26.02.0\Library\bin"
-
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
 
 
 def extract_text_from_pdf(pdf_path):
-
     try:
-        text = extract_text(pdf_path)
+        doc = fitz.open(pdf_path)
+        full_text = []
 
-        # OCR fallback if little/no text found
-        if len(text.strip()) < 50:
+        for page in doc:
+            text = page.get_text("text")
+            full_text.append(text)
 
-            images = convert_from_path(
-                pdf_path,
-                poppler_path=POPPLER_PATH
-            )
+        return "\n".join(full_text).strip()
 
-            ocr_text = ""
-
-            for image in images:
-                ocr_text += pytesseract.image_to_string(image)
-
-            return ocr_text
-
-        return text
-
-    except Exception as e:
-        return f"Error reading PDF with OCR: {e}"
+    except Exception as error:
+        return f"Error reading PDF file: {error}"
 
 
 def extract_text_from_docx(docx_path):
-
     try:
-        doc = Document(docx_path)
-
+        document = Document(docx_path)
         full_text = []
 
-        for para in doc.paragraphs:
-            full_text.append(para.text)
+        for paragraph in document.paragraphs:
+            paragraph_text = paragraph.text.strip()
+
+            if paragraph_text:
+                full_text.append(paragraph_text)
 
         return "\n".join(full_text)
 
-    except Exception as e:
-        return f"Error reading DOCX file: {e}"
+    except Exception as error:
+        return f"Error reading DOCX file: {error}"
 
 
 def extract_text_from_file(file_path):
-
     file_path = str(file_path)
 
     if file_path.lower().endswith(".pdf"):
@@ -66,5 +43,4 @@ def extract_text_from_file(file_path):
     elif file_path.lower().endswith(".docx"):
         return extract_text_from_docx(file_path)
 
-    else:
-        return "Unsupported file format"
+    return "Unsupported file format"

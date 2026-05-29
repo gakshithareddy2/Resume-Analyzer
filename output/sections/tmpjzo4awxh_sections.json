@@ -1,0 +1,55 @@
+{
+    "candidate_name": "Short Resum",
+    "contact_info": {
+        "email": "jack@sparrow.org",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Python"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 7.5,
+        "score_breakdown": {
+            "skills_score": 7.5,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0.0
+        },
+        "matched_skills": [
+            "Python"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [],
+        "matched_experience_keywords": []
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "0",
+        "projects": [],
+        "experience": "Collaborated in team-based academic projects with defined responsibilities. Presented research and project outcomes during internal evaluations. Applied classroom concepts to real-world problem statements.",
+        "languages": [
+            "English",
+            "French"
+        ],
+        "certifications": "0"
+    }
+}

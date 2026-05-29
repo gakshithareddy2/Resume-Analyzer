@@ -1,0 +1,83 @@
+{
+    "candidate_name": "G. Akshitha Reddy",
+    "contact_info": {
+        "email": "@gmail.com",
+        "phone": "9398452705",
+        "linkedin": "https://www.linkedin.com/in/g-akshitha-reddy-65a793347/English",
+        "github": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "Deep Learning",
+        "Git",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "PHP",
+        "Python",
+        "Scikit-learn",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 57.83,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 20.0,
+            "education_gpa_score": 7,
+            "experience_score": 8.33
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "web application",
+            "dashboard",
+            "prediction",
+            "classification",
+            "deep learning",
+            "database",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "Aspiring Computer Science and Engineering student with a strong interest inArtificial Intelligence, Machine Learning, and Web Development. Experienced inacademic projects involving web applications, machine learning models, andalgorithm-based systems. Good foundation in programming, data analysis, and problem-solving, with a focus on applying theoretical knowledge to real-worldproblems. Seeking opportunities to enhance technical expertise and contribute to innovative technology solutions.",
+        "education": "B.Tech 2nd Year-Computer Science &Engineering(AIML)Woxsen University,Telangana2024 \u2013 2028CGPA:7.59, SGPA:8.41",
+        "skills": "Programming Languages: Java, Python Web Technologies: HTML, CSS Databases: MySQL (Basic) Machine Learning: Scikit-learn (Basics), Data Preprocessing, Model Evaluation Core Concepts: Object-Oriented Programming,Data Structures (Basic) Tools: Git, VS Code, Jupyter Notebook",
+        "projects": "SOT Student Grievance Management Programming : Java, Python Web Technologies: HTML, CSS Databases: MySQL (Basic) Machine Learning: Scikit-learn (Basics), Data Preprocessing, Model Evaluation Core Concepts: Object-Oriented Programming,Data Structures (Basic) Tools: Git, VS Code, Jupyter NotebookAuthenticity Analysis of Real and AI-Generated Images Using Deep LearningDeveloped a deep learning system to detect whether images are real or AI-generated using CNN and transfer learning. Trained the model on the CIFAKE dataset and evaluatedperformance using metrics such as accuracy, precision, recall, and confusion matrix. Built aweb interface for real-time image verification, achieving 97.67% classification accuracy. Campus Shuttle Routing & Capacity Scheduling Disease Diagnosis using Machine LearningBuilt a machine learning model using Python and Scikit-learn to predict diabetes using thePIMA Indian Diabetes Dataset. Performed data preprocessing and feature selection andimplemented a Random Forest classifier, achieving ~74% prediction accuracy.Designed an optimized campus transportation routing system using graph-based modelingand the Greedy Nearest Neighbor algorithm. Improved route planning efficiency whileconsidering bus capacity and scheduling constraints. Social Event Management Web ApplicationDeveloped a web-based platform connecting customers with event service providers.Implemented service search, booking, rating, and location-based recommendations with adatabase to manage users, services, bookings, and feedback.Aspiring Computer Science and Engineering student with a strong interest inArtificial Intelligence, Machine Learning, and Web Development. Experienced inacademic projects involving web applications, machine learning models, andalgorithm-based systems. Good foundation in programming, data analysis, and problem-solving, with a focus on applying theoretical knowledge to real-worldproblems. Seeking opportunities to enhance technical expertise and contribute to innovative technology solutions.",
+        "experience": "Collaborated in team-based academic projects,contributing to planning, development, and implementation.Presented research findings and project outcomes in internal evaluations.Applied classroom concepts to real-world problems through practical projects.",
+        "languages": "English, Hindi, Telugu",
+        "certifications": "0"
+    }
+}

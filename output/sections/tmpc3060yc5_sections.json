@@ -1,0 +1,70 @@
+{
+    "candidate_name": "Ananya Reddy",
+    "contact_info": {
+        "email": "ananya@gmail.com",
+        "phone": "+91 9871234567",
+        "linkedin": "",
+        "github": "",
+        "location": ""
+    },
+    "detected_skills": [
+        "Machine Learning",
+        "Python",
+        "TensorFlow"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 36.11,
+        "score_breakdown": {
+            "skills_score": 15.0,
+            "projects_score": 11.11,
+            "education_gpa_score": 10,
+            "experience_score": 0.0
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": []
+    },
+    "sections": {
+        "summary": "Enthusiastic AI student interested in healthcare analytics.",
+        "education": "B.Tech CSE (AI & ML) XYZ University CGPA: 8.9",
+        "skills": "Python, TensorFlow, Streamlit, Machine Learning",
+        "projects": [
+            {
+                "title": "Smart Hospital Patient Monitoring System",
+                "description": "Smart Hospital Patient Monitoring System Situation: Manual patient monitoring was inefficient. Task: Build an IoT-based monitoring dashboard. Action: Used Python and Streamlit for real-time visualization. Result: Improved monitoring efficiency and alert handling."
+            },
+            {
+                "title": "Handwritten Digit Classifier Project",
+                "description": "Handwritten Digit Classifier Project Situation: Digit recognition was error-prone. Task: Create automated recognition system. Action: Trained CNN model using MNIST dataset. Result: Achieved high prediction accuracy."
+            }
+        ],
+        "experience": "Collaborated in team-based academic projects with defined responsibilities. Presented research and project outcomes during internal evaluations. Applied classroom concepts to real-world problem statements.",
+        "languages": [
+            "English",
+            "Telugu"
+        ],
+        "certifications": "0"
+    }
+}

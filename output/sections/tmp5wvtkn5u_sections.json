@@ -1,0 +1,83 @@
+{
+    "candidate_name": "G. Akshitha Reddy",
+    "contact_info": {
+        "email": "g.akshitha.reddy1@gmail.com",
+        "phone": "9398452705",
+        "linkedin": "https://www.linkedin.com/in/g-akshitha-reddy-65a793347/",
+        "github": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "Deep Learning",
+        "Git",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "PHP",
+        "Python",
+        "Scikit-learn",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 22.5,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "web application",
+            "dashboard",
+            "prediction",
+            "classification",
+            "deep learning",
+            "database",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "0",
+        "projects": "0",
+        "experience": "0",
+        "languages": "Technical SkillsProgramming Languages",
+        "certifications": "0"
+    }
+}

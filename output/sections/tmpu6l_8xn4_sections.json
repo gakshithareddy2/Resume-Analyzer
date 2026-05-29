@@ -1,0 +1,62 @@
+{
+    "candidate_name": "Rahul Verma",
+    "contact_info": {
+        "email": "rahul@gmail.com",
+        "phone": "+91 9988776655",
+        "linkedin": "https://www.linkedin.com/in/rahulverma",
+        "github": "https://github.com/rahulvermaMotivatedsoftwareengineeringstudentpassionateaboutbackenddevelopmentandcloudcomputing",
+        "location": "Bangalore"
+    },
+    "detected_skills": [
+        "AWS",
+        "Docker",
+        "FastAPI",
+        "GitHub",
+        "Java",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 35.71,
+        "score_breakdown": {
+            "skills_score": 25.71,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "GitHub",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Machine Learning",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [],
+        "matched_experience_keywords": [
+            "intern",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "Motivated software engineering student passionate about backend development and cloud computing.",
+        "education": "Bachelor of Engineering in Information Technology XYZ University 2022",
+        "skills": "0",
+        "projects": [],
+        "experience": "0",
+        "languages": [
+            "English",
+            "Hindi",
+            "Kannada"
+        ],
+        "certifications": "0"
+    }
+}

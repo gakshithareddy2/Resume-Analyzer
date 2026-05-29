@@ -1,0 +1,105 @@
+{
+    "candidate_name": "Basics Data Preprocessing",
+    "contact_info": {
+        "email": "samhitasandi@gmail.com",
+        "phone": "9440594464",
+        "linkedin": "https://www.linkedin.com/in/samhita",
+        "github": "",
+        "location": "Telangana"
+    },
+    "detected_skills": [
+        "CSS",
+        "Communication",
+        "Git",
+        "HTML",
+        "Java",
+        "Jupyter Notebook",
+        "Machine Learning",
+        "MySQL",
+        "Problem Solving",
+        "Python",
+        "Scikit-learn",
+        "Team Collaboration",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 58.61,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 17.78,
+            "education_gpa_score": 10,
+            "experience_score": 8.33
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "web application",
+            "dashboard",
+            "prediction",
+            "classification",
+            "database",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "Aspiring Computer Science Engineering student with experience in Java development, machine learning projects, and academic research. Good foundation in Object-Oriented Programming, data analysis, and problem-solving, with a growing interest in applying AI and computing techniques to real-world and interdisciplinary domains.",
+        "education": "b Technologies: HTML, CSS Databases: MySQL (Basic) Machine Learning: Scikit-learn (Basics), Data Preprocessing, Model Evaluation Core Concepts: Object-Oriented Programming, Data Structures (Basic) Tools: Git, VS Code, Jupyter Notebook Analytical Thinking Team Collaboration Communication Skills Problem Solving English Hindi Telugu SAMHITA SANDI ARTIFICIAL INTELLIGENCE ENTHUSIAST PROJECTS AND RESEACH EDUCATION B.Tech 2 Year\u2013 Computer Science & Engineering (AIML) Woxsen University, Telangana 2024 \u2013 2028 CGPA: 8.14 , SGPA: 8.41",
+        "skills": "Python, IoT, and data visualization. Handwritten Digit",
+        "projects": [
+            {
+                "title": "Smart Hospital Patient Monitoring System",
+                "description": "Smart Hospital Patient Monitoring System Situation: Manual monitoring of patient vital signs was time-consuming and inefficient. Task: Design and develop a real-time IoT-based patient monitoring system with a live dashboard. Action: Simulated sensor data for heart rate, SpO\u2082, and temperature using Python. Processed and analyzed data using rolling averages and threshold checks. Built an interactive monitoring dashboard using Streamlit. Result: Enabled real-time visualization of patient health data. Improved early detection of abnormal health conditions. Strengthened practical knowledge of Python, IoT, and data visualization."
+            },
+            {
+                "title": "Handwritten Digit Classifier Project",
+                "description": "Handwritten Digit Classifier Project Situation: Manual identification of handwritten digits is time-consuming and prone to errors. Task: Design and develop an automated handwritten digit recognition system using machine learning. Action: Preprocessed and trained a machine learning model using the MNIST dataset. Built a GUI application in Python to upload and process handwritten digit images. Implemented prediction logic to classify digits accurately in real time. Result: Enabled fast and accurate handwritten digit recognition. Reduced manual effort and increased prediction reliability. Strengthened practical knowledge of Python, machine learning, and GUI development."
+            },
+            {
+                "title": "Machine Learning Approaches for Predicting Disease",
+                "description": "Machine Learning Approaches for Predicting Disease- Associated Genetic Variants PROFESSIONAL SUMMARY Collaborated in team-based academic projects with defined responsibilities Presented research and project outcomes during internal evaluations Applied classroom concepts to realworld problem statements ACADEMIC EXPERIENCE Aspiring Computer Science Engineering student with experience in Java development, machine learning projects, and academic research. Good foundation in Object-Oriented Programming, data analysis, and problem-solving, with a growing interest in applying AI and computing techniques to real-world and interdisciplinary domains. Situation: Need to apply machine learning concepts through a practical project. Task: Build a working machine learning model to predict disease- associated genetic variants. Action: Created and preprocessed a synthetic genetic dataset using Python Trained and tested a Random Forest classification model Developed a simple web application using Streamlit Result: Successfully predicted benign and disease-associated variants Improved understanding of machine learning workflow and model deployment"
+            },
+            {
+                "title": "Synchronization and Deadlock Management",
+                "description": "Synchronization and Deadlock Management in Smart Manufacturing Systems Situation: Need to understand and implement synchronization and deadlock concepts through a practical simulation-based project. Task: Design and develop a GUI-based system to simulate machine synchronization and deadlock handling. Action: Designed a graphical user interface Simulated machine execution and shared resource allocation Implemented deadlock detection and recovery logic Result: Successfully demonstrated machine synchronization and deadlock resolution Improved understanding of operating system concepts and GUI- based system design"
+            }
+        ],
+        "experience": "Collaborated in team-based academic projects with defined responsibilities Presented research and project outcomes during internal evaluations Applied classroom concepts to realworld problem statements ACADEMIC EXPERIENCE Aspiring Computer Science Engineering student with experience in Java development, machine learning projects, and academic research.",
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "certifications": "0"
+    }
+}

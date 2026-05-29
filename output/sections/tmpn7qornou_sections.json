@@ -1,0 +1,80 @@
+{
+    "candidate_name": "Daniel Gallego",
+    "contact_info": {
+        "email": "hello@reallygreatsite.com",
+        "phone": "+91 9000012345",
+        "linkedin": "https://www.linkedin.com/in/danielgallego",
+        "github": "https://github.com/danielgallego",
+        "location": "Mumbai"
+    },
+    "detected_skills": [
+        "Communication",
+        "GitHub",
+        "Project Management",
+        "Team Collaboration"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 25.79,
+        "score_breakdown": {
+            "skills_score": 8.57,
+            "projects_score": 2.22,
+            "education_gpa_score": 10,
+            "experience_score": 5.0
+        },
+        "matched_skills": [
+            "GitHub"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "UX Designer focused on creating user-centered digital experiences and improving product usability.",
+        "education": "Bachelor of Design University of Creative Arts 2020 - 2024 GPA: 8.2",
+        "skills": "Figma, Adobe XD, Project Management, User Research, Wireframing, Communication, Team Collaboration",
+        "projects": [
+            {
+                "title": "Mobile Banking App Redesign",
+                "description": "Created wireframes and prototypes to improve mobile banking usability."
+            },
+            {
+                "title": "E-commerce UX Improvement",
+                "description": "Conducted user research and improved checkout flow for better conversion."
+            }
+        ],
+        "experience": [
+            {
+                "role": "Ux Design Intern",
+                "company": "DesignHub",
+                "duration": "2024",
+                "description": "UX Design Intern - DesignHub - 2024 Worked on usability testing, wireframe creation, and user journey mapping."
+            }
+        ],
+        "languages": [
+            "English",
+            "French",
+            "Mandarin"
+        ],
+        "certifications": "0"
+    }
+}

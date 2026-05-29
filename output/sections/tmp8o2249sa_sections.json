@@ -1,0 +1,79 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "SKILLSCONTACTSKILLSLANGUAGES9440594464samhitasandi@gmail.com",
+        "phone": "9440594464",
+        "linkedin": "https://www.linkedin.com/in/samhitasandi",
+        "github": ""
+    },
+    "detected_skills": [
+        "Communication",
+        "Git",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "Python",
+        "Scikit-learn",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 58.61,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 17.78,
+            "education_gpa_score": 10,
+            "experience_score": 8.33
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "web application",
+            "dashboard",
+            "prediction",
+            "classification",
+            "database",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "Aspiring Computer Science Engineeringstudent with experience in Javadevelopment, machine learning projects,and academic research. Good foundationin Object-Oriented Programming, dataanalysis, and problem-solving, with agrowing interest in applying AI andcomputing techniques to real-world andinterdisciplinary domains.",
+        "education": "b Technologies: HTML, CSSDatabases: MySQL (Basic)Machine Learning: Scikit-learn(Basics), Data Preprocessing,Model EvaluationCore Concepts: Object-OrientedProgramming, Data Structures(Basic)Tools: Git, VS Code, JupyterNotebook Analytical ThinkingTeam Collaboration Communication SkillsProblem SolvingEnglish HindiTelugu SAMHITA SANDIARTIFICIAL INTELLIGENCE ENTHUSIAST EDUCATION B.Tech 2 Year\u2013 Computer Science & Engineering (AIML)Woxsen University, Telangana2024 \u2013 2028CGPA: 8.14",
+        "skills": "0",
+        "projects": "Smart Hospital Patient Monitoring SystemSituation:Manual monitoring of patient vital signs was time-consuming and inefficient.Task:Design and develop a real-time IoT-based patient monitoringsystem with a live dashboard.Action:Simulated sensor data for heart rate, SpO\u2082, and temperature usingPython.Processed and analyzed data using rolling averages and thresholdchecks.Built an interactive monitoring dashboard using Streamlit.Result:Enabled real-time visualization of patient health data.Improved early detection of abnormal health conditions.Strengthened practical knowledge of Python, IoT, and datavisualization.Handwritten Digit Classifier Project Situation: Manual identification of handwritten digits is time-consumingand prone to errors.Task: Design and develop an automated handwritten digit recognitionsystem using machine learning.Action:Preprocessed and trained a machine learning model using theMNIST dataset.Built a GUI application in Python to upload and processhandwritten digit images.Implemented prediction logic to classify digits accurately in realtime.Result:Enabled fast and accurate handwritten digit recognition.Reduced manual effort and increased prediction reliability.Strengthened practical knowledge of Python, machine learning,and GUI development. Machine Learning Approaches for Predicting Disease-Associated Genetic Variants",
+        "experience": "Collaborated in team-based academic projects with defined responsibilitiesPresented research and project outcomes during internal evaluationsApplied classroom concepts torealworld problem statements",
+        "languages": "0",
+        "certifications": "0"
+    }
+}

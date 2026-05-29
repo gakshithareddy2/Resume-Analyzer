@@ -1,0 +1,87 @@
+{
+    "candidate_name": "Priya Sharma",
+    "contact_info": {
+        "email": "priyasharma@gmail.com",
+        "phone": "+91 9123456789",
+        "linkedin": "https://www.linkedin.com/in/priyasharma",
+        "github": "https://github.com/priyasharmaPROFILEDataScienceenthusiastskilledinanalytics",
+        "location": "Pune"
+    },
+    "detected_skills": [
+        "Excel",
+        "GitHub",
+        "Machine Learning",
+        "NumPy",
+        "Pandas",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 88.33,
+        "score_breakdown": {
+            "skills_score": 60.0,
+            "projects_score": 13.33,
+            "education_gpa_score": 10,
+            "experience_score": 5.0
+        },
+        "matched_skills": [
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "classification",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "Data Science enthusiast skilled in analytics, visualization, and machine learning.",
+        "education": "Bachelor of Technology in Artificial Intelligence ABC Institute of Technology 2023 - 2027 GPA: 8.8",
+        "skills": "Python, SQL, Power BI, Excel, Machine Learning, Scikit-learn, Pandas, NumPy",
+        "projects": [
+            {
+                "title": "Sales Dashboard using Power BI",
+                "description": "Created an interactive dashboard to track sales performance and business KPIs."
+            },
+            {
+                "title": "Customer Churn Prediction",
+                "description": "Built a classification model to identify customers likely to leave a service."
+            }
+        ],
+        "experience": [
+            {
+                "role": "Data Analytics Intern",
+                "company": "InsightWorks",
+                "duration": "2025",
+                "description": "Data Analytics Intern - InsightWorks - 2025 Worked on data cleaning, dashboard creation, and customer segmentation."
+            }
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Marathi"
+        ],
+        "certifications": "0"
+    }
+}

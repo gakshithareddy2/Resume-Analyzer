@@ -2,21 +2,33 @@ import re
 
 
 def extract_name(text):
-    email_match = re.search(r"([a-zA-Z]+)@gmail\.com", text)
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
 
-    if email_match:
-        username = email_match.group(1)
+    ignore = [
+        "summary", "education", "skills", "projects", "research",
+        "experience", "languages", "contact", "phone", "email",
+        "linkedin", "github", "location", "university", "college",
+        "institute", "cgpa", "sgpa", "b.tech", "bachelor",
+        "technical skills", "professional summary",
+        "web technologies", "databases", "machine learning",
+        "core concepts", "tools"
+    ]
 
-        known_names = {
-            "johndoe": "John Doe",
-            "priyasharma": "Priya Sharma",
-            "rahulsharma": "Rahul Sharma"
-        }
+    for line in lines[:100]:
+        if "@" in line or "http" in line.lower() or re.search(r"\d", line):
+            continue
 
-        if username.lower() in known_names:
-            return known_names[username.lower()]
+        clean = re.sub(r"[^A-Za-z. ]", "", line).strip()
 
-    if re.search(r"G\.?\s*AKSHITHA\s+REDDY", text, re.IGNORECASE):
-        return "G. Akshitha Reddy"
+        if not clean:
+            continue
+
+        if any(word in clean.lower() for word in ignore):
+            continue
+
+        words = clean.replace(".", " ").split()
+
+        if 2 <= len(words) <= 4:
+            return clean.title()
 
     return ""

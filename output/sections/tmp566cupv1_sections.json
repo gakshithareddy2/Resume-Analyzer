@@ -1,0 +1,81 @@
+{
+    "candidate_name": "G. Akshitha Reddy",
+    "contact_info": {
+        "email": "g.akshitha.reddy1@gmail.com",
+        "phone": "+91 9398452705",
+        "linkedin": "https://www.linkedin.com/in/g-akshitha-reddy-65a793347",
+        "github": "https://github.com/gakshithareddy2SUMMARYAspiringAIMLstudentinterestedinArtificialIntelligence",
+        "location": "Hyderabad, Telangana"
+    },
+    "detected_skills": [
+        "CSS",
+        "FastAPI",
+        "Git",
+        "GitHub",
+        "HTML",
+        "Java",
+        "Jupyter Notebook",
+        "Machine Learning",
+        "MySQL",
+        "NLP",
+        "Python",
+        "Scikit-learn",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 41.29,
+        "score_breakdown": {
+            "skills_score": 34.29,
+            "projects_score": 0,
+            "education_gpa_score": 7,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "GitHub",
+            "Machine Learning",
+            "Python",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Power BI",
+            "SQL"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "B.Tech 2nd Year - Computer Science & Engineering (AIML) Woxsen University, Telangana 2024 - 2028 CGPA: 7.59, SGPA: 8.41",
+        "skills": "0",
+        "projects": [],
+        "experience": "0",
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "certifications": "0"
+    }
+}

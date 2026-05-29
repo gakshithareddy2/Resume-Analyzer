@@ -1,0 +1,72 @@
+{
+    "candidate_name": "Rohit Kumar",
+    "contact_info": {
+        "email": "rohit@gmail.com",
+        "phone": "+91 9876541230",
+        "linkedin": "https://www.linkedin.com/in/rohitkumarhttps",
+        "github": "https://github.com/rohitkumar",
+        "location": "Delhi"
+    },
+    "detected_skills": [
+        "Excel",
+        "GitHub",
+        "Machine Learning",
+        "NLP",
+        "NumPy",
+        "Pandas",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 70.0,
+        "score_breakdown": {
+            "skills_score": 60.0,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "classification",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "B.Tech Artificial Intelligence National Institute of Technology 2022 - 2026 CGPA: 8.3",
+        "skills": "Python, Machine Learning",
+        "projects": [],
+        "experience": "0",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "certifications": "0"
+    }
+}

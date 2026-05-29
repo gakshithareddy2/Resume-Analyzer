@@ -1,0 +1,83 @@
+{
+    "candidate_name": "Aman Gupta",
+    "contact_info": {
+        "email": "aman@gmail.com",
+        "phone": "+91 9111122233",
+        "linkedin": "https://www.linkedin.com/in/amangupta",
+        "github": "https://github.com/amangupta",
+        "location": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "Excel",
+        "GitHub",
+        "HTML",
+        "JavaScript",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 43.73,
+        "score_breakdown": {
+            "skills_score": 34.29,
+            "projects_score": 4.44,
+            "education_gpa_score": 0,
+            "experience_score": 5.0
+        },
+        "matched_skills": [
+            "Excel",
+            "GitHub",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Machine Learning",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "database"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "Fresher with strong fundamentals in programming, web development, and database systems.",
+        "education": "0",
+        "skills": "Python, SQL, HTML, CSS, JavaScript, GitHub, Excel",
+        "projects": [
+            {
+                "title": "Portfolio Website",
+                "description": "Designed and developed a responsive personal portfolio using HTML, CSS, and JavaScript."
+            },
+            {
+                "title": "Library Management System",
+                "description": "Built a database-driven application to manage book issue and return records."
+            }
+        ],
+        "experience": [
+            {
+                "role": "Web Development Intern",
+                "company": "CodeCraft",
+                "duration": "2024",
+                "description": "Web Development Intern - CodeCraft - 2024 Assisted in frontend development and testing of responsive web pages."
+            }
+        ],
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "certifications": "0"
+    }
+}

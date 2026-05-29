@@ -1,0 +1,55 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "hello@reallygreatsite.com",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Project Management"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 3.33,
+        "score_breakdown": {
+            "skills_score": 0.0,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 3.33
+        },
+        "matched_skills": [],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project"
+        ],
+        "matched_experience_keywords": [
+            "experience",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "Languages: English, French, Mandarin.Certifications: Professional Design Engineer (PDE) License, Project Management Tech (PMT).Awards/Activities: Most Innovative Employer of the Year (2021), Overall Best Employee DivisionTwo (2024), Onboarding Project Lead (2023) May 2014 - May 2016Bachelor of Design in Process EngineeringEngineering UniversityRelevant coursework in Structural Design and Project Management. Aug 2016 - Oct 2019UX Industrial Basics and General ApplicationUniversity of Engineering UX CohortMajor in Automotive Technology.Thesis on \"Technological Advancements within the current Mechatronics Industry\u201d.Feb 2021 - Dec 2022System UX Engineer, XarrowAI IndustriesDesigned and optimised a robotic control system, realizing a 12% performance improvement.Coordinated testing and validation, ensuring compliance with industry standards.Provided technical expertise, contributing to a 15% reduction in system failures.Jan 2023 - PresentInstant Chartz App, Morcelle ProgramLed development of an advanced automation system, achieving a 15% increase in operationalefficiency.Streamlined manufacturing processes, reducing production costs by 10%.Implemented preventive maintenance strategies, resulting in a 20% decrease in equipmentdowntime.UX Designer with a focus on delivering impactful results, eager to tackle dynamic challenges and applycreativity to craft intuitive user experiences. Demonstrated proficiency in project management, user-centricproblem-solving, and seamless collaboration across teams. Skilled in leveraging state-of-the-art tools andmethodologies to streamline processes and elevate user satisfactionDANIEL GALLEGO123 Anywhere St., Any City | hello@reallygreatsite.com | www.reallygreatsite.comUX DESIGNER",
+        "education": "0",
+        "skills": "0",
+        "projects": "0",
+        "experience": "s. Demonstrated proficiency in project management, user-centricproblem-solving, and seamless collaboration across teams. Skilled in leveraging state-of-the-art tools andmethodologies to streamline processes and elevate user satisfactionDANIEL GALLEGO123 Anywhere St., Any City | hello@reallygreatsite.com | www.reallygreatsite.comUX DESIGNER",
+        "languages": "0",
+        "certifications": "0"
+    }
+}

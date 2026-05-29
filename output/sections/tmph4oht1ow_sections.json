@@ -1,0 +1,76 @@
+{
+    "candidate_name": "Ananya Reddy",
+    "contact_info": {
+        "email": "ananya@gmail.com",
+        "phone": "+91 9871234567",
+        "linkedin": "https://www.linkedin.com/in/ananyareddyhttps",
+        "github": "https://github.com/ananyareddy",
+        "location": "Chennai"
+    },
+    "detected_skills": [
+        "Deep Learning",
+        "GitHub",
+        "Machine Learning",
+        "NumPy",
+        "Pandas",
+        "Python",
+        "TensorFlow"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 39.04,
+        "score_breakdown": {
+            "skills_score": 25.71,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 3.33
+        },
+        "matched_skills": [
+            "GitHub",
+            "Machine Learning",
+            "Python"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Power BI",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "deep learning",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience"
+        ]
+    },
+    "sections": {
+        "summary": "Enthusiastic AI student interested in healthcare analytics and intelligent monitoring systems.",
+        "education": "B.Tech CSE (AI & ML) XYZ University 2023 - 2027 CGPA: 8.9",
+        "skills": "Python, TensorFlow, Streamlit, Machine Learning, Deep Learning, Pandas, NumPy",
+        "projects": [],
+        "experience": [
+            {
+                "role": "Ai Research Intern",
+                "company": "MediAI Labs",
+                "duration": "2025",
+                "description": "AI Research Intern - MediAI Labs - 2025 Assisted in model evaluation and healthcare dataset preprocessing."
+            }
+        ],
+        "languages": [
+            "English",
+            "Telugu",
+            "Tamil"
+        ],
+        "certifications": "0"
+    }
+}

@@ -2,52 +2,81 @@ import re
 
 
 def extract_email(text):
-    """
-    Extract email safely even when PDF text is merged.
-    Example issue:
-    System9398452705Hyderabadg.akshitha.reddy1@gmail.com
-    """
+    text = text.replace("\n", " ")
+    text = text.replace("http", " http")
 
-    pattern = r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.(?:com|in|org|net|edu)"
-    matches = re.findall(pattern, text)
+    matches = re.findall(
+        r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.(?:com|edu|org|net|in|co|io)",
+        text,
+        re.IGNORECASE
+    )
 
-    if not matches:
-        return ""
-
-    email = matches[0]
-
-    # Special fix for merged Gmail emails
-    if "@gmail.com" in email:
-        before_at = email.split("@")[0]
-
-        # Keep part starting from last lowercase initial pattern like g.akshitha...
-        fixed = re.search(r"[a-z](?:[._][a-zA-Z0-9]+)+$", before_at)
-
-        if fixed:
-            return fixed.group(0) + "@gmail.com"
-
-    return email
+    return matches[0].strip() if matches else ""
 
 
 def extract_phone(text):
-    match = re.search(r"(\+91[\s-]?)?[6-9]\d{9}", text)
-    return match.group(0) if match else ""
+    match = re.search(r"(?:\+91[\s-]?)?[6-9]\d{9}", text)
+
+    if not match:
+        return ""
+
+    phone = match.group(0).replace(" ", "").replace("-", "")
+
+    if phone.startswith("+91"):
+        number = phone[3:]
+    else:
+        number = phone
+
+    return f"+91 {number}"
 
 
 def extract_linkedin(text):
-    match = re.search(
-        r"https?://(?:www\.)?linkedin\.com/in/[a-zA-Z0-9-]+/?",
-        text
-    )
-    return match.group(0) if match else ""
+    text = text.replace("￾", "-")
+    text = re.sub(r"\s+", "", text)
 
+    match = re.search(
+        r"https?://(?:www\.)?linkedin\.com/in/[A-Za-z0-9_-]+/?",
+        text,
+        re.IGNORECASE
+    )
+
+    return match.group(0).rstrip("/") if match else ""
 
 def extract_github(text):
+    text = text.replace("￾", "")
+    text = re.sub(r"\s+", "", text)
+
     match = re.search(
-        r"https?://(?:www\.)?github\.com/[a-zA-Z0-9-]+/?",
-        text
+        r"https?://(?:www\.)?github\.com/[A-Za-z0-9_-]+",
+        text,
+        re.IGNORECASE
     )
-    return match.group(0) if match else ""
+
+    if not match:
+        return ""
+
+    github = match.group(0)
+
+    for stop in ["SUMMARY", "EDUCATION", "SKILLS", "PROJECTS", "EXPERIENCE"]:
+        if stop.lower() in github.lower():
+            github = github[:github.lower().find(stop.lower())]
+
+    return github.rstrip("/")
+
+
+def extract_location(text):
+    known_locations = [
+        "Hyderabad", "Telangana", "Bangalore", "Chennai", "Mumbai",
+        "Pune", "Delhi", "Ahmedabad", "Gujarat"
+    ]
+
+    found = []
+
+    for loc in known_locations:
+        if re.search(rf"\b{loc}\b", text, re.IGNORECASE):
+            found.append(loc)
+
+    return ", ".join(dict.fromkeys(found))
 
 
 def extract_contact_info(text):
@@ -56,4 +85,5 @@ def extract_contact_info(text):
         "phone": extract_phone(text),
         "linkedin": extract_linkedin(text),
         "github": extract_github(text),
+        "location": extract_location(text)
     }

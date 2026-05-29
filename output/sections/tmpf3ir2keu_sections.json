@@ -1,0 +1,67 @@
+{
+    "candidate_name": "Aman Gupta",
+    "contact_info": {
+        "email": "aman@gmail.com",
+        "phone": "+91 9111122233",
+        "linkedin": "https://www.linkedin.com/in/amangupta",
+        "github": "https://github.com/amanguptaSUMMARYFresherwithstrongfundamentalsinprogramming",
+        "location": ""
+    },
+    "detected_skills": [
+        "CSS",
+        "Excel",
+        "GitHub",
+        "HTML",
+        "JavaScript",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 34.29,
+        "score_breakdown": {
+            "skills_score": 34.29,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Excel",
+            "GitHub",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Machine Learning",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "database"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "0",
+        "projects": [],
+        "experience": "0",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "certifications": "0"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "candidate_name": "Major In Automotive Technology.",
+    "contact_info": {
+        "email": "hello@reallygreatsite.com",
+        "phone": "",
+        "linkedin": "",
+        "github": "",
+        "location": ""
+    },
+    "detected_skills": [
+        "Project Management"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 5.55,
+        "score_breakdown": {
+            "skills_score": 0.0,
+            "projects_score": 2.22,
+            "education_gpa_score": 0,
+            "experience_score": 3.33
+        },
+        "matched_skills": [],
+        "missing_skills": [
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project"
+        ],
+        "matched_experience_keywords": [
+            "experience",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "UX Designer with a focus on delivering impactful results, eager to tackle dynamic challenges and apply creativity to craft intuitive user experiences. Demonstrated proficiency in project management, user-centric problem-solving, and seamless collaboration across teams. Skilled in leveraging state-of-the-art tools and methodologies to streamline processes and elevate user satisfaction",
+        "education": "Bachelor of Design in Process Engineering Engineering University Relevant coursework in Structural Design and Project Management. Aug 2016",
+        "skills": "Prototyping Tools User Research Information Architecture Interaction Design Visual Design Usability Heuristics Accessibility Responsive Design User Testing Tools",
+        "projects": [
+            {
+                "title": "Instant Chartz App",
+                "description": "Instant Chartz App, Morcelle Program Led development of an advanced automation system, achieving a 15% increase in operational efficiency. Streamlined manufacturing processes, reducing production costs by 10%. Implemented preventive maintenance strategies, resulting in a 20% decrease in equipment downtime."
+            }
+        ],
+        "experience": "System UX Engineer, XarrowAI Industries Designed and optimised a robotic control system, realizing a 12% performance improvement.",
+        "languages": [
+            "English",
+            "French",
+            "Mandarin"
+        ],
+        "certifications": "0"
+    }
+}

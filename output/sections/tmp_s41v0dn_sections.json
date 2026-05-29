@@ -1,0 +1,114 @@
+{
+    "candidate_name": "G.Akshitha Reddy",
+    "contact_info": {
+        "email": "g.akshitha.reddy1@gmail.com",
+        "phone": "+91 9398452705",
+        "linkedin": "https://www.linkedin.com/in/g-akshitha-reddy-65a793347",
+        "github": "",
+        "location": "Hyderabad, Telangana"
+    },
+    "detected_skills": [
+        "CSS",
+        "Communication",
+        "Deep Learning",
+        "Git",
+        "HTML",
+        "Java",
+        "Jupyter Notebook",
+        "Machine Learning",
+        "MySQL",
+        "PHP",
+        "Python",
+        "Scikit-learn",
+        "Team Collaboration",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 61.04,
+        "score_breakdown": {
+            "skills_score": 25.71,
+            "projects_score": 20.0,
+            "education_gpa_score": 7,
+            "experience_score": 8.33
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "web application",
+            "dashboard",
+            "prediction",
+            "classification",
+            "deep learning",
+            "database",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "Aspiring Computer Science and Engineering student with a strong interest in Artificial Intelligence, Machine Learning, and Web Development. Experienced in academic projects involving web applications, machine learning models, and algorithm-based systems. Good foundation in programming, data analysis, and problem-solving, with a focus on applying theoretical knowledge to real-world problems. Seeking opportunities to enhance technical expertise and contribute to innovative technology solutions.",
+        "education": "B.Tech 2nd Year-Computer Science & Engineering(AIML) Woxsen University,Telangana 2024 \u2013 2028 CGPA:7.59, SGPA:8.41",
+        "skills": "0",
+        "projects": [
+            {
+                "title": "SOT Student Grievance Management System",
+                "description": "SOT Student Grievance Management System Developed a web-based grievance management system to manage and resolve student complaints. Implemented modules for login/registration, grievance submission, tracking, and admin dashboard with role-based access control. Built analytics dashboards to analyze complaint trends using HTML, CSS, PHP, MySQL, and XAMPP."
+            },
+            {
+                "title": "Authenticity Analysis of Real and AI-Generated Images Using Deep Learning",
+                "description": "Authenticity Analysis of Real and AI-Generated Images Using Deep Learning Developed a deep learning system to detect whether images are real or AI-generated using CNN and transfer learning. Trained the model on the CIFAKE dataset and evaluated performance using metrics such as accuracy, precision, recall, and confusion matrix. Built a web interface for real-time image verification, achieving 97.67% classification accuracy."
+            },
+            {
+                "title": "Disease Diagnosis using Machine Learning",
+                "description": "Disease Diagnosis using Machine Learning Built a machine learning model using Python and Scikit-learn to predict diabetes using the PIMA Indian Diabetes Dataset. Performed data preprocessing and feature selection and implemented a Random Forest classifier, achieving ~74% prediction accuracy."
+            },
+            {
+                "title": "Social Event Management Web Application",
+                "description": "Social Event Management Web Application Developed a web-based platform connecting customers with event service providers. Implemented service search, booking, rating, and location-based recommendations with a database to manage users, services, bookings, and feedback."
+            }
+        ],
+        "experience": [
+            {
+                "role": "Academic Experience",
+                "company": "",
+                "duration": "",
+                "description": "Collaborated in team-based academic projects, contributing to planning, development, and implementation. Presented research findings and project outcomes in internal evaluations. Applied classroom concepts to real-world problems through practical projects."
+            }
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "certifications": "0"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "candidate_name": "Ananya Reddy",
+    "contact_info": {
+        "email": "ananya@gmail.com",
+        "phone": "+91 9871234567",
+        "linkedin": "",
+        "github": "",
+        "location": ""
+    },
+    "detected_skills": [
+        "Machine Learning",
+        "Python",
+        "TensorFlow"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 25.0,
+        "score_breakdown": {
+            "skills_score": 15.0,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 0.0
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": []
+    },
+    "sections": {
+        "summary": "Enthusiastic AI student interested in healthcare analytics.",
+        "education": "B.Tech CSE (AI & ML) XYZ University CGPA: 8.9",
+        "skills": "Python, TensorFlow, Streamlit, Machine Learning",
+        "projects": [],
+        "experience": "Collaborated in team-based academic projects with defined responsibilities. Presented research and project outcomes during internal evaluations. Applied classroom concepts to real-world problem statements.",
+        "languages": [
+            "English",
+            "Telugu"
+        ],
+        "certifications": "0"
+    }
+}

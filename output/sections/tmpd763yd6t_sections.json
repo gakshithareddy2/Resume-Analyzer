@@ -1,0 +1,59 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "rahul@gmail.com",
+        "phone": "+91 9988776655",
+        "linkedin": "",
+        "github": "",
+        "location": "Bangalore"
+    },
+    "detected_skills": [
+        "AWS",
+        "Docker",
+        "FastAPI",
+        "GitHub",
+        "Java",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 35.83,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 3.33
+        },
+        "matched_skills": [
+            "GitHub",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "Machine Learning",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [],
+        "matched_experience_keywords": [
+            "intern",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "Motivated software engineering student passionate about backend development and cloud computing.",
+        "education": "Bachelor of Engineering in Information Technology XYZ University 2022 - 2026 CGPA: 8.1",
+        "skills": "Python, Java, FastAPI, Docker, AWS, SQL",
+        "projects": [],
+        "experience": "Worked on API integration and debugging.",
+        "languages": [],
+        "certifications": "0"
+    }
+}

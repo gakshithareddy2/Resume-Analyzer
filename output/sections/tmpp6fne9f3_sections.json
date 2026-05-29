@@ -1,0 +1,91 @@
+{
+    "candidate_name": "John Doe",
+    "contact_info": {
+        "email": "johndoe@gmail.com",
+        "phone": "+91 9876543210",
+        "linkedin": "https://www.linkedin.com/in/johndoe",
+        "github": "https://github.com/johndoe",
+        "location": "Hyderabad, Telangana"
+    },
+    "detected_skills": [
+        "CSS",
+        "Git",
+        "GitHub",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "PHP",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 63.06,
+        "score_breakdown": {
+            "skills_score": 37.5,
+            "projects_score": 8.89,
+            "education_gpa_score": 10,
+            "experience_score": 6.67
+        },
+        "matched_skills": [
+            "GitHub",
+            "Machine Learning",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "Power BI"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "Aspiring Computer Science student interested in Machine Learning and Web Development.",
+        "education": "B.Tech in Computer Science Engineering Woxsen University, Telangana 2024 - 2028 CGPA: 8.4",
+        "skills": "Python, Java, SQL",
+        "projects": [
+            {
+                "title": "Student Grievance Management System",
+                "description": "Student Grievance Management System Developed a web-based complaint management system using PHP and MySQL."
+            },
+            {
+                "title": "Diabetes Prediction System",
+                "description": "Diabetes Prediction System Built a machine learning model using Scikit-learn to predict diabetes."
+            }
+        ],
+        "experience": "Machine Learning Intern at ABC Tech Worked on data preprocessing and model training.",
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "certifications": "0"
+    }
+}

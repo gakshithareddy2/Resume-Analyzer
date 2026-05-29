@@ -3,6 +3,7 @@ from fastapi.responses import JSONResponse
 import tempfile
 from pathlib import Path
 import sys
+import os
 
 sys.path.append("src")
 
@@ -28,21 +29,18 @@ def home():
 
 @app.post("/parse-resume/")
 async def parse_resume(file: UploadFile = File(...)):
+    temp_path = None
+
     try:
         file_extension = Path(file.filename).suffix.lower()
 
         if file_extension not in [".pdf", ".docx"]:
             return JSONResponse(
                 status_code=400,
-                content={
-                    "error": "Invalid file format. Please upload PDF or DOCX."
-                }
+                content={"error": "Invalid file format. Please upload PDF or DOCX."}
             )
 
-        with tempfile.NamedTemporaryFile(
-            delete=False,
-            suffix=file_extension
-        ) as temp_file:
+        with tempfile.NamedTemporaryFile(delete=False, suffix=file_extension) as temp_file:
             temp_file.write(await file.read())
             temp_path = temp_file.name
 
@@ -62,3 +60,7 @@ async def parse_resume(file: UploadFile = File(...)):
                 "message": str(error)
             }
         )
+
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            os.remove(temp_path)

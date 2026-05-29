@@ -1,37 +1,34 @@
-skill
-Python
-Java
-SQL
-Machine Learning
-Deep Learning
-NLP
-Data Science
-Pandas
-NumPy
-Scikit-learn
-TensorFlow
-PyTorch
-HTML
-CSS
-JavaScript
-React
-React.js
-Flask
-FastAPI
-REST API
-Git
-GitHub
-MySQL
-MongoDB
-Power BI
-Excel
-Tableau
-Docker
-AWS
-Problem Solving
-Team Collaboration
-Communication
-Project Management
-VS Code
-Jupyter Notebook
-PHP
+skill,category
+Python,Programming
+Java,Programming
+SQL,Database
+HTML,Web
+CSS,Web
+JavaScript,Web
+React,Web
+PHP,Web
+FastAPI,Backend
+Flask,Backend
+Machine Learning,AI/ML
+Deep Learning,AI/ML
+NLP,AI/ML
+Scikit-learn,AI/ML
+TensorFlow,AI/ML
+PyTorch,AI/ML
+Pandas,Data
+NumPy,Data
+Power BI,Analytics
+Excel,Analytics
+Tableau,Analytics
+MySQL,Database
+MongoDB,Database
+Git,Tools
+GitHub,Tools
+Docker,Tools
+AWS,Cloud
+Jupyter Notebook,Tools
+VS Code,Tools
+Problem Solving,Soft Skill
+Communication,Soft Skill
+Team Collaboration,Soft Skill
+Project Management,Soft Skill

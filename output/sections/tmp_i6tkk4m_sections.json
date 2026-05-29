@@ -1,0 +1,55 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "hello@reallygreatsite.com",
+        "phone": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "detected_skills": [
+        "Project Management"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 0.0,
+        "score_breakdown": {
+            "skills_score": 0.0,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0
+        },
+        "matched_skills": [],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project"
+        ],
+        "matched_experience_keywords": [
+            "experience",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "0",
+        "projects": "0",
+        "experience": "0",
+        "languages": "English, French, Mandarin",
+        "certifications": "Professional Design Engineer (PDE) License, Project Management Tech (PMT)."
+    }
+}

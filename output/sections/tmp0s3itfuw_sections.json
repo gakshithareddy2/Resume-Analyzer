@@ -1,0 +1,78 @@
+{
+    "candidate_name": "Rahul Verma",
+    "contact_info": {
+        "email": "rahul@gmail.com",
+        "phone": "+91 9988776655",
+        "linkedin": "https://www.linkedin.com/in/rahulverma",
+        "github": "https://github.com/rahulvermaMotivatedsoftwareengineeringstudentpassionateaboutbackenddevelopmentandcloudcomputing",
+        "location": "Bangalore"
+    },
+    "detected_skills": [
+        "AWS",
+        "Docker",
+        "FastAPI",
+        "GitHub",
+        "Java",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 39.04,
+        "score_breakdown": {
+            "skills_score": 25.71,
+            "projects_score": 0.0,
+            "education_gpa_score": 10,
+            "experience_score": 3.33
+        },
+        "matched_skills": [
+            "GitHub",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Machine Learning",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [],
+        "matched_experience_keywords": [
+            "intern",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "Motivated software engineering student passionate about backend development and cloud computing.",
+        "education": "Bachelor of Engineering in Information Technology XYZ University 2022",
+        "skills": "0",
+        "projects": [
+            {
+                "title": "Smart Attendance System",
+                "description": "Smart Attendance System Built a face-recognition attendance system using Python and OpenCV."
+            },
+            {
+                "title": "REST API Development",
+                "description": "REST API Development Created backend APIs using FastAPI and SQLite for student data management."
+            }
+        ],
+        "experience": [
+            {
+                "role": "Software Development Intern",
+                "company": "TechNova",
+                "duration": "2025",
+                "description": "Software Development Intern - TechNova - 2025 Worked on API integration, debugging, and deployment support."
+            }
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Kannada"
+        ],
+        "certifications": "0"
+    }
+}

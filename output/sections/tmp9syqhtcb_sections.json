@@ -1,0 +1,53 @@
+{
+    "candidate_name": "Priya Sharma",
+    "contact_info": {
+        "email": "priyasharma@gmail.com",
+        "phone": "",
+        "linkedin": "",
+        "github": "",
+        "location": ""
+    },
+    "detected_skills": [
+        "Excel",
+        "Machine Learning",
+        "Power BI"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 25.71,
+        "score_breakdown": {
+            "skills_score": 25.71,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Excel",
+            "Machine Learning",
+            "Power BI"
+        ],
+        "missing_skills": [
+            "GitHub",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "machine learning"
+        ],
+        "matched_experience_keywords": []
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "0",
+        "projects": [],
+        "experience": "0",
+        "languages": [],
+        "certifications": "0"
+    }
+}

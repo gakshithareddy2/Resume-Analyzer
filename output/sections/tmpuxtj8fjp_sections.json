@@ -1,0 +1,46 @@
+{
+    "candidate_name": "Rohit Kumar",
+    "contact_info": {
+        "email": "",
+        "phone": "",
+        "linkedin": "",
+        "github": "",
+        "location": ""
+    },
+    "detected_skills": [],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 0.0,
+        "score_breakdown": {
+            "skills_score": 0.0,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0
+        },
+        "matched_skills": [],
+        "missing_skills": [
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [],
+        "matched_experience_keywords": []
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "0",
+        "projects": [],
+        "experience": "0",
+        "languages": [],
+        "certifications": "0"
+    }
+}

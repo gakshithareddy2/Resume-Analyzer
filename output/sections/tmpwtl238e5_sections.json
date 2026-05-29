@@ -1,0 +1,62 @@
+{
+    "candidate_name": "Daniel Gallego",
+    "contact_info": {
+        "email": "hello@reallygreatsite.com",
+        "phone": "",
+        "linkedin": "",
+        "github": "",
+        "location": ""
+    },
+    "detected_skills": [],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 3.89,
+        "score_breakdown": {
+            "skills_score": 0.0,
+            "projects_score": 2.22,
+            "education_gpa_score": 0,
+            "experience_score": 1.67
+        },
+        "matched_skills": [],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project"
+        ],
+        "matched_experience_keywords": [
+            "experience"
+        ]
+    },
+    "sections": {
+        "summary": "UX Designer with a focus on delivering impactful user experiences.",
+        "education": "Bachelor of Design University of Engineering UX Cohort 2020 - 2024",
+        "skills": "Figma, Wireframing, User Research, Prototyping, Responsive Design",
+        "projects": [
+            {
+                "title": "Instant Chartz App",
+                "description": "Designed intuitive chart visualization interfaces."
+            }
+        ],
+        "experience": "System UX Engineer Improved user workflows and reduced downtime.",
+        "languages": [
+            "English",
+            "French",
+            "Mandarin"
+        ],
+        "certifications": "0"
+    }
+}

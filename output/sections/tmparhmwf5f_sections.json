@@ -1,0 +1,91 @@
+{
+    "candidate_name": "John Doe",
+    "contact_info": {
+        "email": "johndoe@gmail.com",
+        "phone": "+91 9876543210",
+        "linkedin": "https://www.linkedin.com/in/johndoehttps",
+        "github": "https://github.com/johndoe",
+        "location": "Hyderabad, Telangana"
+    },
+    "detected_skills": [
+        "CSS",
+        "Git",
+        "GitHub",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "NLP",
+        "PHP",
+        "Problem Solving",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 59.53,
+        "score_breakdown": {
+            "skills_score": 42.86,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 6.67
+        },
+        "matched_skills": [
+            "GitHub",
+            "Machine Learning",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Power BI"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "Aspiring Computer Science student interested in Machine Learning, NLP, and Web Development. Strong foundation in Python, SQL, and problem solving.",
+        "education": "B.Tech in Computer Science Engineering Woxsen University, Telangana 2024 - 2028 CGPA: 8.4",
+        "skills": "Python, Java, SQL, Machine Learning, NLP, Git, GitHub, HTML, CSS, MySQL",
+        "projects": [],
+        "experience": [
+            {
+                "role": "Machine Learning Intern",
+                "company": "ABC Tech",
+                "duration": "2025",
+                "description": "Machine Learning Intern - ABC Tech - 2025 Worked on data preprocessing, model training, and evaluation for prediction systems."
+            }
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "certifications": "0"
+    }
+}

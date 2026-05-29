@@ -1,0 +1,80 @@
+{
+    "candidate_name": "Neha Mehta",
+    "contact_info": {
+        "email": "neha.mehta@gmail.com",
+        "phone": "+91 9222233344",
+        "linkedin": "https://www.linkedin.com/in/nehamehta",
+        "github": "https://github.com/nehamehtaSUMMARYFull-stackdeveloperskilledinReact",
+        "location": "Ahmedabad, Gujarat"
+    },
+    "detected_skills": [
+        "AWS",
+        "Docker",
+        "FastAPI",
+        "Git",
+        "GitHub",
+        "JavaScript",
+        "MongoDB",
+        "MySQL",
+        "Python",
+        "React"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 36.03,
+        "score_breakdown": {
+            "skills_score": 17.14,
+            "projects_score": 8.89,
+            "education_gpa_score": 10,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "GitHub",
+            "Python"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Machine Learning",
+            "Power BI",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "web application",
+            "dashboard",
+            "database"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "Full-stack developer skilled in React, FastAPI, REST APIs, databases, and deployment workflows.",
+        "education": "B.Tech Information Technology Gujarat Technological University 2021 - 2025 CGPA: 8.6",
+        "skills": "0",
+        "projects": [
+            {
+                "title": "Job Portal Web Application",
+                "description": "Job Portal Web Application Developed a job portal with user authentication, job search, application tracking, and recruiter dashboard."
+            },
+            {
+                "title": "Task Management API",
+                "description": "Task Management API Built REST APIs using FastAPI and MongoDB for managing tasks and user workflows."
+            }
+        ],
+        "experience": "0",
+        "languages": [
+            "English",
+            "Hindi",
+            "Gujarati"
+        ],
+        "certifications": "0"
+    }
+}

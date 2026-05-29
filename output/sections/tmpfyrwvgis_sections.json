@@ -1,0 +1,71 @@
+{
+    "candidate_name": "Priya Sharma",
+    "contact_info": {
+        "email": "priyasharma@gmail.com",
+        "phone": "+91 9123456789",
+        "linkedin": "https://www.linkedin.com/in/priyasharma",
+        "github": "https://github.com/priyasharmaPROFILEDataScienceenthusiastskilledinanalytics",
+        "location": "Pune"
+    },
+    "detected_skills": [
+        "Excel",
+        "GitHub",
+        "Machine Learning",
+        "NumPy",
+        "Pandas",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 70.0,
+        "score_breakdown": {
+            "skills_score": 60.0,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "classification",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "Bachelor of Technology in Artificial Intelligence ABC Institute of Technology 2023",
+        "skills": "0",
+        "projects": [],
+        "experience": "0",
+        "languages": [
+            "English",
+            "Hindi",
+            "Marathi"
+        ],
+        "certifications": "0"
+    }
+}

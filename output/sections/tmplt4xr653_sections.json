@@ -1,0 +1,83 @@
+{
+    "candidate_name": "John Doe",
+    "contact_info": {
+        "email": "johndoe@gmail.com",
+        "phone": "+91 9876543210",
+        "linkedin": "https://www.linkedin.com/in/johndoeSUMMARYAspiringComputerSciencestudentinterestedinMachineLearningandWebDevelopment",
+        "github": "",
+        "location": "Hyderabad, Telangana"
+    },
+    "detected_skills": [
+        "CSS",
+        "Git",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "NLP",
+        "NumPy",
+        "PHP",
+        "Pandas",
+        "Python",
+        "SQL"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Hyderabad",
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 44.6,
+        "score_breakdown": {
+            "skills_score": 25.71,
+            "projects_score": 8.89,
+            "education_gpa_score": 10,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "SQL"
+        ],
+        "missing_skills": [
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked",
+            "developed"
+        ]
+    },
+    "sections": {
+        "summary": "Aspiring Computer Science student interested in Machine Learning and Web Development.",
+        "education": "B.Tech in Computer Science Engineering Woxsen University, Telangana 2024 - 2028 CGPA: 8.4",
+        "skills": "Python, Java, SQL",
+        "projects": [
+            {
+                "title": "Student Grievance Management System",
+                "description": "Student Grievance Management System Developed a web-based complaint management portal using HTML, CSS, PHP, and MySQL."
+            }
+        ],
+        "experience": "0",
+        "languages": [],
+        "certifications": "0"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "candidate_name": "Daniel Gallego",
+    "contact_info": {
+        "email": "hello@reallygreatsite.com",
+        "phone": "+91 9000012345",
+        "linkedin": "https://www.linkedin.com/in/danielgallegohttps",
+        "github": "https://github.com/danielgallego",
+        "location": "Mumbai"
+    },
+    "detected_skills": [
+        "Communication",
+        "GitHub",
+        "Project Management",
+        "Team Collaboration"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": [
+            "2024"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 23.57,
+        "score_breakdown": {
+            "skills_score": 8.57,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 5.0
+        },
+        "matched_skills": [
+            "GitHub"
+        ],
+        "missing_skills": [
+            "Excel",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "matched_project_keywords": [
+            "project"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "UX Designer focused on creating user-centered digital",
+        "education": "Bachelor of Design University of Creative Arts 2020 - 2024 GPA: 8.2",
+        "skills": "Figma, Adobe XD, Project Management, User Research, Wireframing, Communication, Team Collaboration",
+        "projects": [],
+        "experience": [
+            {
+                "role": "",
+                "company": "",
+                "duration": "",
+                "description": "s and improving product usability."
+            }
+        ],
+        "languages": [
+            "English",
+            "French",
+            "Mandarin"
+        ],
+        "certifications": "0"
+    }
+}

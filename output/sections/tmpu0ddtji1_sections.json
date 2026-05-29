@@ -1,0 +1,79 @@
+{
+    "candidate_name": "",
+    "contact_info": {
+        "email": "SKILLSCONTACTSKILLSLANGUAGES9440594464samhitasandi@gmail.com",
+        "phone": "9440594464",
+        "linkedin": "https://www.linkedin.com/in/samhitasandi",
+        "github": ""
+    },
+    "detected_skills": [
+        "Communication",
+        "Git",
+        "HTML",
+        "Java",
+        "Machine Learning",
+        "MySQL",
+        "Python",
+        "Scikit-learn",
+        "VS Code"
+    ],
+    "entities": {
+        "organizations": [
+            "Woxsen University"
+        ],
+        "locations": [
+            "Telangana"
+        ],
+        "dates": [
+            "2024",
+            "2028"
+        ]
+    },
+    "job_match": {
+        "match_percentage": 22.5,
+        "score_breakdown": {
+            "skills_score": 22.5,
+            "projects_score": 0,
+            "education_gpa_score": 0,
+            "experience_score": 0
+        },
+        "matched_skills": [
+            "Machine Learning",
+            "Python",
+            "Scikit-learn"
+        ],
+        "missing_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Power BI",
+            "SQL"
+        ],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "web application",
+            "dashboard",
+            "prediction",
+            "classification",
+            "database",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience",
+            "collaborated",
+            "developed",
+            "implemented"
+        ]
+    },
+    "sections": {
+        "summary": "0",
+        "education": "0",
+        "skills": "0",
+        "projects": [],
+        "experience": "0",
+        "languages": [],
+        "certifications": "0"
+    }
+}

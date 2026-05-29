@@ -1,3 +1,5 @@
+# app.py
+
 import streamlit as st
 import tempfile
 import json
@@ -6,7 +8,8 @@ import time
 import pandas as pd
 from pathlib import Path
 
-sys.path.append("src")
+BASE_DIR = Path(__file__).resolve().parent
+sys.path.append(str(BASE_DIR / "src"))
 
 from parser import ResumeParser
 
@@ -23,7 +26,7 @@ def html(code):
 
 
 def clean_section(value, fallback):
-    if not value or value == "0":
+    if not value or value == "0" or value == []:
         return fallback
     return value
 
@@ -46,7 +49,7 @@ def build_insights(result):
 
     insights = []
 
-    if sections.get("projects", "0") == "0":
+    if not sections.get("projects"):
         insights.append("Add a Projects section with project title, tools used, and measurable outcome.")
 
     if sections.get("experience", "0") == "0":
@@ -378,7 +381,8 @@ if uploaded_files:
 
     score = result["score"]
 
-    has_projects = result["sections"].get("projects", "0") != "0"
+    projects_value = result["sections"].get("projects", [])
+    has_projects = bool(projects_value)
     has_experience = result["sections"].get("experience", "0") != "0"
     has_education = result["sections"].get("education", "0") != "0"
 
@@ -413,7 +417,29 @@ if uploaded_files:
             result["sections"].get("experience", ""),
             "Experience section not detected."
         )
-        st.info(experience)
+
+        if isinstance(experience, list):
+            for exp in experience:
+                role = exp.get("role", "")
+                company = exp.get("company", "")
+                duration = exp.get("duration", "")
+                description = exp.get("description", "")
+
+                if role:
+                    st.markdown(f"### 💼 {role}")
+
+                if company:
+                    st.write(company)
+
+                if duration:
+                    st.caption(duration)
+
+                if description:
+                    st.write(description)
+
+                st.markdown("---")
+        else:
+            st.info(experience)
 
         st.markdown("### 🎓 Education")
         education = clean_section(
@@ -423,43 +449,44 @@ if uploaded_files:
         st.success(education)
 
         st.markdown("### 🚀 Projects")
-
         projects = clean_section(
-            result["sections"].get("projects", ""),
+            result["sections"].get("projects", []),
             "Projects section not detected."
         )
 
         if projects == "Projects section not detected.":
-
             st.info(projects)
-
         else:
+            with st.expander("View Extracted Projects", expanded=False):
+                if isinstance(projects, list):
+                    for project in projects:
+                        if isinstance(project, dict):
+                            title = project.get("title", "")
+                            description = project.get("description", "")
 
-            with st.expander(
-                "View Extracted Projects",
-                expanded=False
-            ):
+                            if title:
+                                st.markdown(f"### 📌 {title}")
 
-                project_lines = projects.replace(
-                    ". ",
-                    ".\n"
-                ).split("\n")
+                            if description:
+                                st.write(description)
 
-                for line in project_lines:
+                            st.markdown("---")
+                        else:
+                            st.write(str(project))
+                else:
+                    project_lines = str(projects).replace(". ", ".\n").split("\n")
 
-                    if line.strip():
-
-                        st.markdown(
-                            f"- {line.strip()}"
-                        )
+                    for line in project_lines:
+                        if line.strip():
+                            st.markdown(f"- {line.strip()}")
 
         st.markdown("### ✨ Resume Improvement Insights")
 
         for insight in result["insights"]:
-
             st.warning(insight)
 
         html("</div>")
+
     with right:
         html(
             f"<div class='score-card'>"
@@ -493,6 +520,59 @@ if uploaded_files:
         else:
             st.error("Low Match")
             st.write("Candidate has limited alignment with the role requirements.")
+
+        html("</div>")
+
+        html("<div class='card'>")
+        st.markdown("### 🎯 Extraction Completeness")
+
+        total_fields = 0
+        correct_fields = 0
+
+        if result["candidate_name"] and result["candidate_name"] != "Unknown":
+            total_fields += 1
+            correct_fields += 1
+
+        if result["email"]:
+            total_fields += 1
+            correct_fields += 1
+
+        if result["phone"]:
+            total_fields += 1
+            correct_fields += 1
+
+        if result["skills"]:
+            total_fields += 1
+            correct_fields += 1
+
+        education_section = result["sections"].get("education", "")
+        if education_section not in ["0", "", None]:
+            total_fields += 1
+            correct_fields += 1
+
+        experience_section = result["sections"].get("experience", "")
+        if experience_section not in ["0", "", None]:
+            total_fields += 1
+            correct_fields += 1
+
+        projects_section = result["sections"].get("projects", [])
+        if projects_section:
+            total_fields += 1
+            correct_fields += 1
+
+        completeness = round((correct_fields / total_fields) * 100, 2) if total_fields else 0
+
+        if completeness >= 85:
+            st.success(f"Extraction Completeness: {completeness}%")
+        elif completeness >= 70:
+            st.warning(f"Extraction Completeness: {completeness}%")
+        else:
+            st.error(f"Extraction Completeness: {completeness}%")
+
+        st.caption(
+            "Completeness is calculated only from fields detected in the uploaded resume. "
+            "Fields not present in the resume are not counted as extraction failures."
+        )
 
         html("</div>")
 

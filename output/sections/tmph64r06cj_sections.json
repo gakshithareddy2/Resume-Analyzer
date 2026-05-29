@@ -1,0 +1,66 @@
+{
+    "candidate_name": "Priya Sharma",
+    "contact_info": {
+        "email": "priyasharma@gmail.com",
+        "phone": "+91 9123456789",
+        "linkedin": "https://www.linkedin.com/in/priyasharma",
+        "github": "https://github.com/priyasharma",
+        "location": ""
+    },
+    "detected_skills": [
+        "Data Science",
+        "Excel",
+        "GitHub",
+        "Machine Learning",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 73.33,
+        "score_breakdown": {
+            "skills_score": 60.0,
+            "projects_score": 0,
+            "education_gpa_score": 10,
+            "experience_score": 3.33
+        },
+        "matched_skills": [
+            "Data Science",
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "worked"
+        ]
+    },
+    "sections": {
+        "summary": "Passionate Data Science student with strong interest in analytics and AI.",
+        "education": "Bachelor of Technology in Artificial Intelligence ABC Institute of Technology 2023",
+        "skills": "0",
+        "projects": [],
+        "experience": "Data Science Intern Worked on customer segmentation and visualization.",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "certifications": "0"
+    }
+}

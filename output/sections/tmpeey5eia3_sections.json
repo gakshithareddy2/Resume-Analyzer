@@ -1,0 +1,79 @@
+{
+    "candidate_name": "Priya Sharma",
+    "contact_info": {
+        "email": "priyasharma@gmail.com",
+        "phone": "+91 9123456789",
+        "linkedin": "https://www.linkedin.com/in/priyasharmaGitHub",
+        "github": "https://github.com/priyasharma",
+        "location": ""
+    },
+    "detected_skills": [
+        "Excel",
+        "GitHub",
+        "Machine Learning",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Scikit-learn"
+    ],
+    "entities": {
+        "organizations": [],
+        "locations": [],
+        "dates": []
+    },
+    "job_match": {
+        "match_percentage": 84.44,
+        "score_breakdown": {
+            "skills_score": 60.0,
+            "projects_score": 11.11,
+            "education_gpa_score": 10,
+            "experience_score": 3.33
+        },
+        "matched_skills": [
+            "Excel",
+            "GitHub",
+            "Machine Learning",
+            "Power BI",
+            "Python",
+            "SQL",
+            "Scikit-learn"
+        ],
+        "missing_skills": [],
+        "matched_project_keywords": [
+            "project",
+            "machine learning",
+            "dashboard",
+            "prediction",
+            "model"
+        ],
+        "matched_experience_keywords": [
+            "intern",
+            "experience"
+        ]
+    },
+    "sections": {
+        "summary": "Data Science enthusiast with knowledge of Python, statistics, data visualization, and machine learning.",
+        "education": "Bachelor of Technology in Artificial Intelligence ABC Institute of Technology 2023 - 2027 CGPA: 8.7",
+        "skills": "Python, R, SQL, Excel, Power BI, Machine Learning, Data Visualization, Scikit-learn",
+        "projects": [
+            {
+                "title": "Sales Prediction Model",
+                "description": "Created a regression model to predict monthly product sales."
+            },
+            {
+                "title": "Customer Segmentation",
+                "description": "Used K-Means clustering to group customers based on purchase behavior."
+            }
+        ],
+        "experience": [
+            {
+                "role": "Analyst",
+                "company": "",
+                "duration": "",
+                "description": "Data Analyst Intern at TechNova Cleaned datasets, created dashboards, and prepared analytical reports."
+            }
+        ],
+        "languages": [],
+        "certifications": "0"
+    }
+}
