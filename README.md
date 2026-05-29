@@ -1,6 +1,6 @@
 # 📄 Automated Resume Analyzer for Job Portals
 
-An AI-powered Resume Analyzer and ATS Candidate Ranking System built using Python, Streamlit, FastAPI, spaCy, NLP techniques, and Regular Expressions.
+An NLP-powered Resume Analyzer and ATS Candidate Ranking System built using Python, Streamlit, FastAPI, spaCy, NLP techniques, and Regular Expressions.
 
 The system automatically parses resumes in PDF and DOCX formats, extracts structured candidate information, identifies technical skills, segments resume sections, matches resumes against job descriptions, calculates ATS compatibility scores, ranks candidates, and generates recruiter-friendly JSON outputs.
 
